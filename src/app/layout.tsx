@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "每日晨報",
-  description: "天氣、台積電股價、科技新聞與今日鼓勵",
+  title: "每日晨報寄信紀錄",
+  description: "每日晨報(天氣、台積電股價、科技新聞與今日鼓勵)的寄送歷史",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

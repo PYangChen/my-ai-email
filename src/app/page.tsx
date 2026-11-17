@@ -1,9 +1,9 @@
-import DailyBrief from "./daily-brief";
+import EmailHistory from "./email-history";
 
 export default function Home() {
   return (
     <main className="flex-1">
-      <DailyBrief />
+      <EmailHistory />
     </main>
   );
 }
